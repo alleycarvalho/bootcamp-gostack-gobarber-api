@@ -24,13 +24,13 @@ Um aplicação de agendamentos para salão de beleza.
 
 ## :computer: Testar aplicação
 
-# Executar contêiner do postgres com docker:
+### Executar contêiner do postgres com docker:
 
 ```js
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
 ```
 
-# Executar migrations (Após criação do Banco de Dados):
+### Executar migrations (Após criação do Banco de Dados):
 
 ```js
 yarn sequelize db:migrate
@@ -49,6 +49,7 @@ yarn sequelize db:migrate
 - Utilização do [Docker](https://www.docker.com/)
 - Banco de Dados: [PostgreSQL](https://www.postgresql.org/)
 - Gerenciamento de Banco de Dados com [Postbird](https://electronjs.org/apps/postbird)
+- Autenticação [JWT: Json Web Token](https://jwt.io/)
 
 ## :memo: Licença
 
