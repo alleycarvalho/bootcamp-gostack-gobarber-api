@@ -27,6 +27,7 @@ Um aplicação de agendamentos para salão de beleza.
 - Framework [Express](https://expressjs.com/pt-br/)
 - Reiniciar servidor automaticamente com [Nodemon](https://github.com/remy/nodemon/)
 - Sintaxe moderna com [Sucrase](https://github.com/alangpierce/sucrase/)
+- Utilizando [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) & [EditorConfig](https://editorconfig.org/)
 
 ## :memo: Licença
 
