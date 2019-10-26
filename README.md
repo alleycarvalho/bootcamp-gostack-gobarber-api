@@ -47,6 +47,8 @@ yarn sequelize db:migrate
 - Migrations: Controle de versão para base de dados
 - Seeders: Popular base de dados em desenvolvimento
 - Utilização do [Docker](https://www.docker.com/)
+- Banco de Dados: [PostgreSQL](https://www.postgresql.org/)
+- Gerenciamento de Banco de Dados com [Postbird](https://electronjs.org/apps/postbird)
 
 ## :memo: Licença
 
