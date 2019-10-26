@@ -25,6 +25,8 @@ Um aplicação de agendamentos para salão de beleza.
 ## :mortar_board: Ferramentas e conceitos utilizados
 
 - Framework [Express](https://expressjs.com/pt-br/)
+- Reiniciar servidor automaticamente com [Nodemon](https://github.com/remy/nodemon/)
+- Sintaxe moderna com [Sucrase](https://github.com/alangpierce/sucrase/)
 
 ## :memo: Licença
 
