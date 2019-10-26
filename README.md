@@ -22,12 +22,31 @@
 
 Um aplicação de agendamentos para salão de beleza.
 
+## :computer: Testar aplicação
+
+# Executar contêiner do postgres com docker:
+
+```js
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres:11
+```
+
+# Executar migrations (Após criação do Banco de Dados):
+
+```js
+yarn sequelize db:migrate
+```
+
 ## :mortar_board: Ferramentas e conceitos utilizados
 
 - Framework [Express](https://expressjs.com/pt-br/)
 - Reiniciar servidor automaticamente com [Nodemon](https://github.com/remy/nodemon/)
 - Sintaxe moderna com [Sucrase](https://github.com/alangpierce/sucrase/)
 - Utilizando [ESLint](https://eslint.org/), [Prettier](https://prettier.io/) & [EditorConfig](https://editorconfig.org/)
+- Arquitetura MVC (Model-View-Controller)
+- ORM: Abstração do Banco de Dados com [Sequelize](https://github.com/alangpierce/sucrase/)
+- Migrations: Controle de versão para base de dados
+- Seeders: Popular base de dados em desenvolvimento
+- Utilização do [Docker](https://www.docker.com/)
 
 ## :memo: Licença
 
