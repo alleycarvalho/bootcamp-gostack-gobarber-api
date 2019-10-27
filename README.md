@@ -50,6 +50,8 @@ yarn sequelize db:migrate
 - Banco de Dados: [PostgreSQL](https://www.postgresql.org/)
 - Gerenciamento de Banco de Dados com [Postbird](https://electronjs.org/apps/postbird)
 - Autenticação [JWT: Json Web Token](https://jwt.io/)
+- Utilização de middlewares
+- Validação dos dados de entrada com [YUP](https://github.com/jquense/yup)
 
 ## :memo: Licença
 
