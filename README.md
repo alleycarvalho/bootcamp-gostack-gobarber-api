@@ -52,6 +52,8 @@ yarn sequelize db:migrate
 - Autenticação [JWT: Json Web Token](https://jwt.io/)
 - Utilização de middlewares
 - Validação dos dados de entrada com [YUP](https://github.com/jquense/yup)
+- Upload de arquivos com [Multer](https://github.com/expressjs/multer)
+- Relacionamento entre tabelas do banco de dados
 
 ## :memo: Licença
 
