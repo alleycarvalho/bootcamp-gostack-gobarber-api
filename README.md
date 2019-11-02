@@ -54,6 +54,17 @@ yarn sequelize db:migrate
 - Validação dos dados de entrada com [YUP](https://github.com/jquense/yup)
 - Upload de arquivos com [Multer](https://github.com/expressjs/multer)
 - Relacionamento entre tabelas do banco de dados
+- Paginação de registros
+- Banco de Dados não relacional: [MongoDB](https://www.mongodb.com/)
+- ORM: Abstração do Banco de Dados com [Mongoose](https://mongoosejs.com/)
+- Utilização de Schemas
+- Notificações
+- Envio de e-mails com [Nodemailer](https://nodemailer.com/about/)
+- Templates de e-mail com [Randlebars](https://handlebarsjs.com)
+- Utilizando filas com [Redis](https://redis.io/)
+- Processamento automatizado utilizando [Bee-queue](https://github.com/bee-queue/bee-queue)
+- Tratamento de excessões com [Sentry](https://sentry.io/welcome/)
+- Variáveis de ambiente com [Dotenv](https://github.com/motdotla/dotenv)
 
 ## :memo: Licença
 
