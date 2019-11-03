@@ -62,7 +62,7 @@ class AppointmentController {
 
     if (!isProvider) {
       return res.status(401).json({
-        error: 'You can only csubHoursreate appointments with providers',
+        error: 'You can only create appointments with providers',
       });
     }
 
@@ -70,7 +70,7 @@ class AppointmentController {
     const hourStart = startOfHour(parseISO(date));
 
     if (isBefore(hourStart, new Date())) {
-      return res.status(400).json({
+      return res.status(401).json({
         error: 'Past dates are not permitted',
       });
     }
@@ -85,7 +85,7 @@ class AppointmentController {
     });
 
     if (checkAvailability) {
-      return res.status(400).json({
+      return res.status(401).json({
         error: 'Appointment date is not available',
       });
     }
