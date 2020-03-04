@@ -133,6 +133,12 @@ class AppointmentController {
       ],
     });
 
+    if (!appointment) {
+      return res.status(404).json({
+        error: 'Appointment not found',
+      });
+    }
+
     if (appointment.user_id !== req.userId) {
       return res.status(401).json({
         error: "You don't have permission to cancel this appointment",
